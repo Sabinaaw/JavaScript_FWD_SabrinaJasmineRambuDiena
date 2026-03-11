@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Perhitungan Luas</title>
+</head>
+<body>
+
+<h2>Hasil Perhitungan Luas Bangun Datar</h2>
+
+<p id="pp"></p>
+<p id="bs"></p>
+<p id="sg"></p>
+
+<script>
+// Fungsi menghitung luas persegi panjang
+function luasPersegiPanjang(panjang, lebar){
+    return panjang * lebar;
+}
+
+// Fungsi menghitung luas bujur sangkar
+function luasBujurSangkar(sisi){
+    return sisi * sisi;
+}
+
+// Fungsi menghitung luas segitiga
+function luasSegitiga(alas, tinggi){
+    return 0.5 * alas * tinggi;
+}
+
+// Nilai Parameter
+let panjang = 10;
+let lebar = 5;
+let sisi = 4;
+let alas = 8;
+let tinggi = 6;
+
+// Menampilkan Hasil Luas Persegi Panjang
+document.getElementById("pp").innerHTML =
+"Luas Persegi Panjang: " + luasPersegiPanjang(panjang, lebar);
+
+// Menampilkan Hasil Luas Bujur Sangkar
+document.getElementById("bs").innerHTML =
+"Luas Bujur Sangkar: " + luasBujurSangkar(sisi);
+
+// Menampilkan Hasil Luas Segitiga
+document.getElementById("sg").innerHTML =
+"Luas Segitiga: " + luasSegitiga(alas, tinggi);
+
+</script>
+
+</body>
+</html>
