@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Manajemen Produk</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Management Produk Toko</h2>
+
+<h3>Tambah Produk</h3>
+
+Nama Produk :
+<input type="text" id="nama">
+
+Harga :
+<input type="number" id="harga">
+
+Stok :
+<input type="number" id="stok">
+
+<button onclick="tambahProduk()">Tambah Produk</button>
+
+<br><br>
+
+<h3>Daftar Produk</h3>
+
+<table border="1" cellpadding="10">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nama</th>
+            <th>Harga</th>
+            <th>Stok</th>
+            <th>Aksi</th>
+        </tr>
+    </thead>
+    <tbody id="tabelProduk">
+    </tbody>
+</table>
+
+<script src="array1.js"></script>
+
+</body>
+</html>
