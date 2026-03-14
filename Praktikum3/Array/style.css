@@ -8,18 +8,15 @@ h2{
     text-align: center;
     color: #333;
 }
-
 h3{
     margin-top: 30px;
 }
-
 input{
     padding: 8px;
     margin: 5px;
     border-radius: 5px;
     border: 1px solid #ccc;
 }
-
 button{
     padding: 8px 14px;
     border: none;
@@ -28,7 +25,6 @@ button{
     border-radius: 5px;
     cursor: pointer;
 }
-
 button:hover{
     background-color: #45a049;
 }
