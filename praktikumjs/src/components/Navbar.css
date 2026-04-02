@@ -1,0 +1,42 @@
+.nav-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.nav-pill {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #111;
+
+  padding: 15px 40px; /* tambah padding biar lega */
+  border-radius: 50px;
+
+  width: 90%;           /* lebih lebar */
+  max-width: 1000px;    /* sebelumnya 600px (terlalu kecil) */
+}
+
+.nav-logo {
+  color: white;
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 30px; /* lebih renggang */
+}
+
+.nav-item {
+  color: white;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.nav-item:hover {
+  background: #6c63ff;
+}
